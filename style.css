@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0;
+}
+h1{
+    color: rgb(34, 77, 133);
+    font-family: sans-serif;
+    font-weight: 600;
+}
+#color{
+    margin-bottom: 8px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+button{
+    margin-right: 8px;
+    padding: 5px;
+    width: 60px;
+    font-family: sans-serif;
+    font-weight:600
+}
+.btn,.gen,.rslt_cal,.f_rslt{
+    margin: 15px 0;
+}
+.container{
+    margin: auto;
+    background-color: rgb(160, 127, 157);
+    width: 700px;
+    height: 300px;
+    box-shadow: 0px 12px 12px 0px black;
+    border-radius: 15px;
+}
+.left-box{
+    position: absolute;
+    width: 250px;
+    height: 300px;
+    border-radius: 15px 0 0 15px;
+    background-color: rgb(172, 158, 170);
+}
+.left-box h1{
+    margin-top:40px;
+    color: rgb(48, 46, 46);
+    font-size: 50px;
+}
+.p-g-t{
+    color: rgb(58, 57, 56);
+}
+.right-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 250px;
+}
+.right-box input,
+.right-box button{
+    margin-top: 15px;
+    padding: 5px;
+}
+.right-box input{
+    width: 200px;
+    border-radius: 15px;
+}
+.right-box button{
+    width: 80px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 10px;
+}
+.f-result{
+    position: absolute;
+    top: 645px;
+    width: 250px;
+    height: 50px;
+    background-color: rgb(53, 52, 54);
+    border-radius: 0px 0 0 15px ;
+    color: white;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+

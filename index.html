@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class-18</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="btn">Button Event(Onclick) & Style:</h1>
+    <h3 id="color">Here we go!</h3>
+    <button onclick="color_change('red')">Red</button> 
+    <button onclick="color_change('blue')">Blue</button> 
+    <button onclick="color_change('brown')">Brown</button> 
+    <button onclick="color_change('green')">Green</button>
+
+    <h1 class="gen">Html generate with JS:</h1>
+    <select id="date">Day</select>
+    
+    <h1 class="rslt_cal">Result Calculation:</h1>
+    <input type="number" id="num" onkeyup="checkResult()">
+    <div id="result"></div>
+
+    <h1 class="f_rslt">Final result:</h1>
+    <div class="container">
+        <div class="left-box">
+            <h1>Result</h1>
+            <div class="p-g-t">
+                <h2>Average-<span id="av"></span></h2>
+                <h2>Grade-<span id="gra"></span></h2>
+                <h2>Total Marks-<span id="to"></span></h2>
+            </div>
+        </div>
+        <div class="content">
+            <div class="right-box">
+                <input type="number" id="ban" placeholder="Bangla">
+                <input type="number" id="eng" placeholder="English">
+                <input type="number" id="fin" placeholder="Finance">
+                <input type="number" id="acc" placeholder="Accounting">
+                <input type="number" id="mng" placeholder="Management">
+                <button type="button" onclick="show_result()">Result</button>
+            </div>
+        </div>
+        <div class="f-result">
+            <h2></h2>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
